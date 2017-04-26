@@ -16,4 +16,11 @@ elif [ $1 = "listar" ]; then
 	else
 		cat LISTA
 	fi
+# Show the designed file in screen
+elif [ $1 = "leer" ]; then
+	cat $2
+# Show mini man with the default option
+else
+	echo "Parametro incorrecto"
+	echo "Forma de uso: "
 fi
