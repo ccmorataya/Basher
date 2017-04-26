@@ -1,5 +1,6 @@
 #!/bin/bash
-# Creator: Cristian Morataya @ccmorataya [cris.morataya@gmail.com]
+# @creator: Cristian Morataya @ccmorataya [cris.morataya@gmail.com]
+# @repo: https://github.com/ccmorataya/Basher
 # Crate a new file taking as first argument the file name
 if [ $# -eq 0 ] || [ $1 = "-h" ]; then
 	echo "Forma de uso: "
@@ -41,6 +42,6 @@ elif [ $1 = "cleanall" ]; then
 	echo "AVISO: Se han eliminado todos los archivos"
 	find . ! -name 'basher.sh' -type f -exec rm -f {} +
 # Show mini man with the default option
-else 
+else
 	echo "Opción incorrecta utliza -h para mostrar la ayuda"
 fi
