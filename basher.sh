@@ -1,4 +1,5 @@
 #!/bin/bash
+# Creator: Cristian Morataya @ccmorataya [cris.morataya@gmail.com]
 # Crate a new file taking as first argument the file name
 if [ $# -eq 0 ] || [ $1 = "-h" ]; then
 	echo "Forma de uso: "
